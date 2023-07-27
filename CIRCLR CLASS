@@ -1,0 +1,19 @@
+import java.util.Scanner;
+import java.io.*;
+class circle
+{
+int r;
+float result, pi=3.14f;
+}
+class cir
+{
+public static void main(String[] args)
+{
+circle obj= new circle();
+Scanner input=new Scanner(System.in);
+System.out.println("enter radius:");
+obj.r=input.nextInt();
+obj.result=obj.r* obj.pi * obj.pi;
+System.out.println(obj.result);
+}
+}
