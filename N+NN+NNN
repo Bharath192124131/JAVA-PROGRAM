@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class nnn
+ {
+ public static void main(String[] args)
+ {
+
+  float n,a;
+  Scanner input = new Scanner(System.in);
+  System.out.print("Input number: ");
+  n = input.nextFloat();
+  a=(n)+(n*n)+(n*n*n)+(n*n*n*n);
+  System.out.println(a);
+ }
+}
